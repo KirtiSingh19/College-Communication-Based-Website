@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(33, 102, 171);
+
+}
+
+.container
+{
+
+    margin-right:-10px;
+    background-color: rgb(241, 246, 247);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height:80vh;
+    
+    
+}
+.col
+{
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:1;
+    overflow-x: auto;
+}
+.col-md-4
+{
+    width:31%;
+    border-right: 2px solid grey ;
+    height:80vh;
+}
+
+.profile
+{ display:flex;
+    width:50px;
+    height:30px;
+    border-radius: 50%;
+
+}
+.nav
+{
+border-radius:7px;
+display:flex;
+
+}
+.nav
+{
+    background-color: #eddddd;
+    justify-content: left;
+    border-radius: 2px;
+    
+    
+}
+.navbar
+{
+padding-left: 70%;
+}
+.bi-list
+{
+    color: rgb(7, 0, 0);
+    margin-top:5px;
+    margin-left:20px;
+transition: 0.3s;
+}
+
+i:hover
+{
+    color:rgb(68, 68, 134);
+    cursor:pointer;
+    font-weight:bolder;
+}
+
+.inbox 
+{
+    padding-left:10px;
+  
+    
+}
+.inbox input
+{
+width:70%;
+
+}
+.input
+{  
+    background-color:#eddddd;
+    padding-left:10px;
+    padding-bottom:3%; 
+}
+h2{
+    color:purple;
+}
+
+.col-md-8
+{  width:59%;
+    
+    float:right;
+    right:0;
+    padding-left:100px;
+    
+}
+h1
+{   margin:0px;
+    margin-left:-16%;
+    background-color: #d4cbcb;
+    padding: 10px 20px 16px 35%;
+   
+}
+
+
+#chat-message-input-container {
+
+    margin-top:30%;
+    height: 14%;
+    width: 70%;
+    display:flex ;
+    flex-direction: row; 
+   position:fixed;
+  
+  
+    }
+    #chat-message-input {
+      height: 37%;
+      width: 70%;
+       border:2px solid; 
+      border-radius:5px;
+   }
+    .send-message {
+        cursor:pointer;
+      height:39px;
+      width:10%;
+      font-size: 15px;
+      color: white;
+      background: #58d258;
+      border:2px solid; 
+      border-color: black;
+      border-radius:5px;
+   }
+      .chat-container
+    {
+    margin-left:-15%;
+    max-width:110%;
+    height:65vh;
+    overflow-y: auto;
+    }
+
+      .message
+      {
+       border-radius: 5%;
+       background-color:rgb(210, 106, 198);
+       padding:1%;
+       width:fit-content;
+       margin:1%;
+       border-color: rgb(31, 3, 31);
+       border: 2px solid;
+
+      }
+      .left
+      {
+        
+        float:left;
+        clear:both;
+      }
+      .right
+      {
+        float:right;
+        clear:both;
+      }
+      span{
+        color:red;
+      }
+
+
