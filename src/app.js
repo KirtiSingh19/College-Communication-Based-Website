@@ -53,11 +53,10 @@ app.post("/login", async (req, res) => {
         const password = req.body.password;
         const user = await Mydata.findOne({ username: username });
         if (user.password === password) {
-            const stdata = await Mydata.find().select('username');
-            const obdata = JSON.stringify(stdata);
+           
             
            
-            res.render("indexx", { username: `${obdata}`, name: `${username}` });
+            res.render("indexx", { username: `${username}` });
         }
         else {
             res.render("login", { password: "Invalid Username and Password!!" });
@@ -67,6 +66,6 @@ app.post("/login", async (req, res) => {
         res.status(400).send(error);
     }
 })
-const server=app.listen(4352, () => {
+const server=app.listen(4353, () => {
     console.log(`listen on port`,server.address().port);
 })

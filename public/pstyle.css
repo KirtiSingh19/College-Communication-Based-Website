@@ -1,50 +1,124 @@
-body{
-    background-color: rgb(33, 102, 171);
 
-}
 
 .container
 {
 
     margin-right:-10px;
-    background-color: rgb(241, 246, 247);
+    background-color: rgb(10, 1, 36);
     border-radius: 10px;
     box-sizing: border-box;
-    height:80vh;
+    height:95vh;
     
     
 }
+.p{
+    background-color: rgb(255, 0, 174);
+    border: 2px solid black;
+}
 .col
 {
-    height:100%;
+    height:190%;
     width:100%;
     position:fixed;
     z-index:1;
-    overflow-x: auto;
+  
+}
+.sc{
+    overflow-y: scroll;
+  
 }
 .col-md-4
 {
     width:31%;
     border-right: 2px solid grey ;
-    height:80vh;
+    height:200vh;
+}
+.fix
+{
+    margin-left:40%;
+    background-color: rgb(5, 2, 47);    
+}
+.btn{
+    background-color: rgb(209, 32, 195);
+    color: white;
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    font-size:15px;
+    font-weight: bolder;
+    border-radius: 5%;
+    margin-left: 37%;
+    
+}
+.btn:hover{
+    background-color: rgb(108, 5, 70);
+}
+input[type-text]{
+    width:100%;
+    border:2px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing: border-box;
+    transition: 3s;
+
+}
+input[type-text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+.textarea{
+    background-color: #dddddd;
+    color:#666666;
+    padding:1em;
+    margin-left: 50%;
+    border-radius: 3%;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width:200px;
+    height: 200px;
+    transition:all 0.2s;
+}
+.textarea:hover{
+    cursor:pointer;
+    background-color: #eeeeee;
+}
+.textarea:focus{
+    cursor:text;
+    color:#333333;
+    background-color: white;
+    border-color: black;
+}
+.margn
+{
+    margin-left: 30%;
+    color:yellow;
 }
 
 .profile
 { display:flex;
-    width:50px;
-    height:30px;
+    width:60px;
+    height:40px;
     border-radius: 50%;
+    margin-top: 4%;
+    margin-left: 3%;
 
 }
 .nav
 {
-border-radius:7px;
+border-radius:9px;
 display:flex;
 
 }
 .nav
-{
-    background-color: #eddddd;
+{   
+    background-color: navy;
     justify-content: left;
     border-radius: 2px;
     
@@ -87,7 +161,7 @@ width:70%;
     padding-bottom:3%; 
 }
 h2{
-    color:purple;
+    color:rgb(34, 109, 230);
 }
 
 .col-md-8
@@ -99,9 +173,11 @@ h2{
     
 }
 h1
-{   margin:0px;
+{    
+    margin:0px;
+    color:white;
     margin-left:-16%;
-    background-color: #d4cbcb;
+    background-color: rgb(122, 122, 240);
     padding: 10px 20px 16px 35%;
    
 }

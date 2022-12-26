@@ -16,14 +16,14 @@ position:relative;
  display:flex;
  justify-content: center;
  align-items: center;
- filter:blur(1.5px);
+ filter:blur(1.2px);
 }
 .box:before{
 content: '';
 position:absolute;
 height:100%;
 width:100%;
-background: rgba(7, 7, 7, 0.7);
+background: rgba(7, 7, 7, 0.6);
 
 
 }
